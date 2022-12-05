@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang='en'>
+<!-- Required meta tags -->
+<meta charset='utf-8'/>
+<meta http-equiv='S-UA-Compatible' content='IE-edge'/>
+<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'/>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css'/>
+<link rel="stylesheet" href="style.css">
+<title>Hello, world!</title>
+</head>
+<body class="bg-light">
+<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio et perferendis ratione,
+ veniam eum similique officia blanditiis dolorum libero quibusdam esse optio eius labore 
+ perspiciatis. Saepe illum earum quidem eveniet eligendi! Iure et facilis blanditiis. 
+ Dignissimos expedita dolorem explicabo, quam accusantium corporis dolor at commodi
+iste fugit facere architecto itaque tempore soluta enim. Sint sunt architecto aut
+praesentium maiores in quia neque, dolore dolor labore assumenda. Repellat cumque
+laborum quo perspiciatis illum minus? Aut quam fugiat non iusto recusandae ipsam 
+sapiente officiis dignissimos accusantium ipsa adipisci a nam consequuntur distinctio 
+sed molestias, asperiores illum, quos voluptates repellendus voluptatibus reprehenderit eveniet. -->
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light my_nav fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+            <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+          </svg> Grofers Organic</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-secondary" aria-current="page" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Blogs</a>
+              </li>
+            </ul>
+          <!-- add search cart and signup icon  -->
+            <form class="d-flex">
+           
+              <button class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></button>
+              <button class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg></button>
+              <button class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+              </svg></button>
+
+            </form>
+          </div>
+        </div>
+    </nav>
+<!-- Navbar  -->
+
+<!-- banner -->
+<section class="banner-holder pt-5">
+<div class="container">
+    <div class="row justify-content-center" style="position: relative;
+    left: 50px;">
+        <div class="col-md-6">
+            <div class="banner-content text-center text-white my-5 py-5">
+               <h1> 
+              Fresh And <span style="color: goldenrod;"> Organic </span> Ash From Mountain For You.
+                </h1>
+               <p> 
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit.  
+                molestias quisquam suscipit non?
+            </p>
+            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscribe-modal">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-check-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z"/>
+                    <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
+                  </svg>
+        Shop Now
+            </a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- banner -->
+
+ <!-- add customer review with image a top and rating below  -->
+<section class="customer-review" style="background-color:cornsilk; border:1px solid black">
+   <h1 class="text-center">Customer's Review</h1>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://th.bing.com/th/id/R.e7e983048934045c740f76fbff8660b4?rik=9zD9iH%2fYoWwNQQ&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f7900000%2fJOHN-DOE-john-doe-7969094-2087-2560.jpg&ehk=dKqfE%2bfKIVEQ9raDF%2fINEmNe%2fo7SIK%2fGIajew7crglI%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+                            <div class="card-body bg-black">
+                                <p class="card-text text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h5 class="card-title text-info text-center">John Doe</h5>
+                                <p class="text-center" style="color:gold"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                                    <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                                  </svg></p>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>                           
+       
+</section>
+
+    <!-- body content -->
+    <section class="home-body-content">
+        <div class="container">
+          
+             <h1 class="text-center">Our Blogs</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://th.bing.com/th/id/OIP.MaRera5xQXBNg4FjFMzgqAHaE1?pid=ImgDet&rs=1" class="img-fluid" alt="Banner">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit minus</p>
+                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://th.bing.com/th/id/OIP.MaRera5xQXBNg4FjFMzgqAHaE1?pid=ImgDet&rs=1" class="img-fluid" alt="Banner">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit minus</p>
+                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://th.bing.com/th/id/OIP.MaRera5xQXBNg4FjFMzgqAHaE1?pid=ImgDet&rs=1" class="img-fluid" alt="Banner">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit minus</p>
+                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://th.bing.com/th/id/OIP.MaRera5xQXBNg4FjFMzgqAHaE1?pid=ImgDet&rs=1" class="img-fluid" alt="Banner">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit minus</p>
+                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://th.bing.com/th/id/OIP.MaRera5xQXBNg4FjFMzgqAHaE1?pid=ImgDet&rs=1" class="img-fluid" alt="Banner">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit minus</p>
+                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://th.bing.com/th/id/OIP.MaRera5xQXBNg4FjFMzgqAHaE1?pid=ImgDet&rs=1" class="img-fluid" alt="Banner">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit minus</p>
+                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://th.bing.com/th/id/OIP.MaRera5xQXBNg4FjFMzgqAHaE1?pid=ImgDet&rs=1" class="img-fluid" alt="Banner">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit minus</p>
+                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="card my_card">
+                        <img src="https://th.bing.com/th/id/OIP.MaRera5xQXBNg4FjFMzgqAHaE1?pid=ImgDet&rs=1" class="img-fluid" alt="Banner">
+                        <div class="card-body">
+                            <h3 class="card-title">Blog Post Title</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis velit minus</p>
+                            <a href="#" class="btn btn-sm btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- body content -->
+ 
+<!-- blog-footer  -->
+<div class="container-fluid bg-info">
+    <div class="row ">
+        <!-- add col for adding social media hanndle  -->
+        <div class="col-4">
+            <div class="card text-center bg-transparent border-0">
+                <div class="card-body">
+                    <h5 class="card-title h1">Grofers Organic</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>     
+                    <a href="#" class="btn btn-outline-success rounded-circle text-black">
+                        <!-- add image-->
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="instagram" width="30px" height="30px">
+                         </a>
+                    <a href="#" class="btn btn-outline-success rounded-circle text-black">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" alt="facebook" width="30px" height="30px">
+                    </a>
+                    <a href="#" class="btn btn-outline-success rounded-circle text-black">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Youtube_colored_svg-512.png" alt="Youtube" width="30px" height="30px">    
+                    </a> 
+                    <a href="#" class="btn btn-outline-success rounded-circle text-black">
+                        <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png" alt="instagram" width="30px" height="30px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 bg-transparent justify-content-center">
+        <!-- add contact us list  -->
+        <div class="card bg-transparent border-0"> 
+         <div class="card-body  ">  
+            <ul class="list-group list-group-flush">
+                <h5 class="card-title h1">  <li class="list-group list-group-flush text-center text-dark ">Contact Info</li></h5>
+                <li class="list-group   text-center">+91 1234567890</li>
+                <li class="list-group text-center ">anu@gmail.com</li>
+                <li class="list-group text-center">7:00 Am to 8:00 Pm</li>
+            </ul>
+         
+    </div>
+  </div>
+</div>
+ 
+
+<div class="col-4 bg-transparent justify-content-center">
+    <!-- add contact us list  -->
+    <div class="card bg-transparent border-0"> 
+     <div class="card-body justify-content-center">  
+        <h5 class="card-title h1 text-center">Quick Links</h5>
+         <ul>
+            <li><a href="#" class="anchor-footer"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg> Home</a></li>
+              <li><a href="#" class="anchor-footer"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg> Features</a></li>
+              <li><a href="#" class="anchor-footer"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg> Product</a></li>
+              <li><a href="#" class="anchor-footer"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg> Categories</a></li>
+             
+         </ul>
+      
+    
+</div>
+</div>
+</div>
+
+    </div>
+ </div>
+
+<!-- blog-footer  -->
+<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
+<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorum suscipit deserunt veniam magnam quam architecto quo rem 
+blanditiis odio qui nemo voluptates amet quia dolor eaque, magni, quidem mollitia! Odio nostrum iste dicta exercitationem voluptate 
+quis saepe? Rem sit aperiam, ipsum commodi, optio unde saepe voluptates voluptate facilis fugiat earum quia sequi officiis quo corporis 
+amet! Perspiciatis nulla eveniet iusto temporibus. Inventore explicabo voluptas, voluptate dolore excepturi nulla tempora quas, vero odio 
+rerum possimus. Veritatis molestias voluptatum laboriosam autem? Eveniet sunt asperiores ea commodi tenetur tempore debitis exercitationem
+inventore consequuntur rerum, at atque perspiciatis? Ab laborum quidem nihil maxime nisi, accusamus nemo iusto veniam fugit ut cum, mollitia 
+tenetur. Et impedit nesciunt accusantium doloribus ad cupiditate modi, laboriosam ut incidunt praesentium odit sed saepe minima veniam autem
+corporis cumque vel unde nisi, id pariatur? Autem unde sequi accusantium blanditiis error officia neque, labore sapiente doloribus voluptatum 
+corrupti? Voluptatibus maxime ipsam expedita esse doloribus placeat dicta cupiditate, perferendis magnam iusto aut fugiat laudantium exercitationem 
+eius perspiciatis alias animi? Doloremque doloribus voluptate blanditiis nam laboriosam recusandae aliquam illo explicabo ipsum adipisci id ducimus
+assumenda similique reiciendis, excepturi velit ex corporis dolore molestias aperiam placeat! Distinctio fugit deleniti tempore totam? Necessitatibus sequi 
+optio, dicta voluptas minus culpa, quae consectetur, quia voluptatibus impedit nisi expedita voluptate dignissimos. Officiis, nisi deleniti consequuntur
+consequatur quod voluptas magnam accusantium impedit iste ab reprehenderit fuga nihil pariatur, officia aspernatur incidunt iusto numquam sunt quis enim 
+amet veritatis nulla reiciendis! Aliquam nihil perferendis debitis nisi reiciendis veniam aperiam architecto non at omnis maxime modi dignissimos minima 
+impedit natus similique, sint, minus, soluta provident? Atque laboriosam corrupti eligendi ullam fugiat sed labore ipsa pariatur cumque odio. Officia 
+ doloremque laudantium quo praesentium aperiam quaerat maiores vel, ex, earum, aspernatur ratione recusandae voluptas. Excepturi vitae rerum fugiat neque
+odit! Est eius, odio aperiam id eaque quae illum architecto tenetur praesentium, consequuntur, minima magnam aut possimus. Facere quod ex omnis natus
+ eum! Autem atque ab tempora nesciunt, dolorem amet, facilis blanditiis ut rerum, expedita ullam? Dolorum magni fugit dolore quaerat tempora ullam
+ perspiciatis voluptate repudiandae. Illo nemo repellat, repudiandae, ut optio laboriosam sed sapiente et dolores ad odio dicta alias, similique
+totam ullam velit in libero. Repudiandae error officia aut dolorum! Nisi praesentium perferendis repudiandae error libero architecto minus
+quibusdam nemo blanditiis saepe. Suscipit necessitatibus officiis unde soluta veritatis perferendis ipsum, tempora quaerat? Quaerat fuga
+repudiandae aspernatur exercitationem magni, iure doloribus nam consequatur illum culpa odio. Illum, amet. Libero labore nihil expedita
+quisquam possimus. Exercitationem praesentium eligendi suscipit, sunt perspiciatis ut sed laboriosam iure sapiente, culpa eius tempore
+illum quis delectus porro vel quas recusandae iste id! Voluptatem tenetur magnam quis quae nam non odit quia sequi! Dignissimos ex 
+consequuntur possimus assumenda temporibus sint eaque officiis repudiandae iusto nam ut quasi quas non dolor quisquam iste ducimus
+ explicabo expedita, saepe tempore provident. Vel sequi modi id voluptatum dolore vitae! Eius molestias aliquam recusandae voluptatum qui iste, 
+quo eos facere ullam modi doloremque quod veniam distinctio expedita? Totam maxime nam laboriosam officiis sint. -->
+</body>
+</html>
